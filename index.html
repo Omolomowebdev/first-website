@@ -1,245 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Chloe Flaurence Kent, Frontend Web Developer.">
-    <title>Chloe Flaurence Kent | Frontend Web Developer</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HomeNest | Modern Homes</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header class="site-header">
-        <nav class="navbar container" aria-label="Main navigation">
-            <a class="logo" href="#home">Chloe<span>.</span></a>
+  <main class="hero">
+    <div class="brand">
+      <span class="brand-icon">⌂</span>
+      <span>HomeNest</span>
+    </div>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="content">
+      <div class="text">
+        <p class="eyebrow">FIND YOUR DREAM HOME</p>
+        <h1>Modern Homes<br>for a Better<br>Life</h1>
+        <p class="description">
+          Discover beautiful, affordable, and<br>
+          comfortable properties in the best<br>
+          locations.
+        </p>
+      </div>
 
-    <main>
+      <div class="house">
+        <img src="house.png" alt="Modern home">
+      </div>
+    </div>
 
-        <!-- SECTION 1: HOME -->
-        <section id="home" class="hero">
-            <div class="container hero-content">
-                <div class="hero-text">
-                    <p class="eyebrow">FRONTEND WEB DEVELOPER</p>
-                    <h1>Hi, I'm <span>Chloe Flaurence Kent</span></h1>
-                    <p class="hero-description">
-                        I am an upcoming web developer who enjoys building
-                        clean, responsive and user-friendly websites.
-                    </p>
+    <div class="search-bar">
+      <div class="search-item">
+        <span class="icon">⌖</span>
+        <span>Location</span>
+        <span class="arrow">⌄</span>
+      </div>
 
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">View My Work</a>
-                        <a href="#contact" class="btn btn-outline">Contact Me</a>
-                    </div>
-                </div>
+      <div class="search-item">
+        <span class="icon">⌂</span>
+        <span>Property Type</span>
+        <span class="arrow">⌄</span>
+      </div>
 
-                <div class="hero-card" aria-label="Developer introduction">
-                    <div class="card-glow"></div>
-                    <div class="code-card">
-                        <span>&lt;developer&gt;</span>
-                        <strong>Chloe Kent</strong>
-                        <p>HTML • CSS • Git • GitHub</p>
-                        <span>&lt;/developer&gt;</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- SECTION 2: ABOUT -->
-        <section id="about" class="section">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="section-label">ABOUT ME</p>
-                    <h2>Building clean websites with purpose.</h2>
-                </div>
-
-                <div class="about-grid">
-                    <div class="about-text">
-                        <p>
-                            I am an upcoming web developer who enjoys building
-                            clean websites and turning ideas into simple,
-                            modern web experiences.
-                        </p>
-                        <p>
-                            I am currently growing my frontend development
-                            skills through practical projects and continuous
-                            learning.
-                        </p>
-                    </div>
-
-                    <div class="about-highlight">
-                        <span class="highlight-number">01</span>
-                        <h3>My approach</h3>
-                        <p>
-                            Clean structure, responsive layouts and a focus
-                            on creating websites that are easy to use.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- SECTION 3: SKILLS -->
-        <section id="skills" class="section section-light">
-            <div class="container">
-                <div class="section-heading centered">
-                    <p class="section-label">MY SKILLS</p>
-                    <h2>Tools I'm learning and using.</h2>
-                </div>
-
-                <div class="skills-grid">
-                    <article class="skill-card">
-                        <div class="skill-icon">HTML</div>
-                        <h3>HTML</h3>
-                        <p>Creating structured and semantic web pages.</p>
-                    </article>
-
-                    <article class="skill-card">
-                        <div class="skill-icon">CSS</div>
-                        <h3>CSS</h3>
-                        <p>Designing layouts, components and responsive interfaces.</p>
-                    </article>
-
-                    <article class="skill-card">
-                        <div class="skill-icon">GIT</div>
-                        <h3>Git</h3>
-                        <p>Tracking changes and managing versions of projects.</p>
-                    </article>
-
-                    <article class="skill-card">
-                        <div class="skill-icon">GH</div>
-                        <h3>GitHub</h3>
-                        <p>Hosting projects and learning modern development workflows.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <!-- SECTION 4: PROJECTS -->
-        <section id="projects" class="section">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="section-label">MY PROJECTS</p>
-                    <h2>Projects I've built.</h2>
-                    <p>Examples of my growing frontend development work.</p>
-                </div>
-
-                <div class="projects-grid">
-                    <article class="project-card">
-                        <div class="project-visual landing">
-                            <span>01</span>
-                            <strong>Landing Page</strong>
-                        </div>
-                        <div class="project-body">
-                            <h3>Landing Page</h3>
-                            <p>
-                                A clean, responsive landing page created to
-                                present information clearly and guide visitors
-                                toward an action.
-                            </p>
-                            <div class="tags">
-                                <span>HTML</span>
-                                <span>CSS</span>
-                                <span>Responsive</span>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <div class="project-visual business">
-                            <span>02</span>
-                            <strong>Business Website</strong>
-                        </div>
-                        <div class="project-body">
-                            <h3>Business Website</h3>
-                            <p>
-                                A professional website designed to present a
-                                business, its services and important contact
-                                information.
-                            </p>
-                            <div class="tags">
-                                <span>HTML</span>
-                                <span>CSS</span>
-                                <span>UI Design</span>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <!-- SECTION 5: SERVICES -->
-        <section id="services" class="section section-light">
-            <div class="container">
-                <div class="section-heading centered">
-                    <p class="section-label">MY SERVICES</p>
-                    <h2>What I can help you build.</h2>
-                </div>
-
-                <div class="services-grid">
-                    <article class="service-card">
-                        <span>01</span>
-                        <h3>Website Development</h3>
-                        <p>Clean and responsive websites built around your needs.</p>
-                    </article>
-
-                    <article class="service-card">
-                        <span>02</span>
-                        <h3>Landing Pages</h3>
-                        <p>Focused landing pages for products, brands and services.</p>
-                    </article>
-
-                    <article class="service-card">
-                        <span>03</span>
-                        <h3>Responsive Design</h3>
-                        <p>Layouts that work smoothly across desktop, tablet and mobile.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <!-- SECTION 6: CONTACT -->
-        <section id="contact" class="section contact">
-            <div class="container contact-content">
-                <div>
-                    <p class="section-label">CONTACT</p>
-                    <h2>Let's build something together.</h2>
-                    <p>
-                        Have a website idea or project in mind?
-                        Feel free to get in touch.
-                    </p>
-                </div>
-
-                <div class="contact-card">
-                    <p>Email me at</p>
-                    <a href="mailto:chloeflaurencekent@gmail.com">
-                        chloeflaurencekent@gmail.com
-                    </a>
-                    <a class="btn btn-primary" href="mailto:chloeflaurencekent@gmail.com">
-                        Send an Email
-                    </a>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="footer">
-        <div class="container footer-content">
-            <p>© 2026 Chloe Flaurence Kent</p>
-            <a href="#home">Back to top ↑</a>
-        </div>
-    </footer>
+      <button class="search-button">
+        <span>⌕</span> Search
+      </button>
+    </div>
+  </main>
 
 </body>
 </html>
